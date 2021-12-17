@@ -11,7 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text('Hello World!'),
+          centerTitle: true,
+        ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
           onPressed: () {},

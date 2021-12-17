@@ -31,6 +31,13 @@ class HomeScreen extends StatelessWidget {
         child: Icon(Icons.add),
         onPressed: () {},
       ),
+      body: Container(
+        child: ListView(
+          children: [
+            Text('khoe'),
+          ],
+        ),
+      ),
     );
   }
 }
